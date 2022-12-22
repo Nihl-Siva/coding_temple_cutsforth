@@ -1,0 +1,105 @@
+.body {
+    background-color: white;
+    font-family: sans-serif;
+    padding: 0;
+   
+}
+
+.header {
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header * {
+    display: inline;
+}
+
+.header li {
+    margin: 20px;
+}
+
+.header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo {
+    color: white;
+    margin-left: 40px;
+    margin-right: 380px;
+    font: 1.2em "Roboto";    
+}
+
+.image-box {
+    display: grid;
+    height: 100%;    
+}
+.image {
+    margin-top: 80px;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.image-text {
+    margin-top: 80px;
+    color: white;
+    font: 5em "Roboto"; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.date-box {
+    display: grid;
+    grid-template-columns: 15%fr auto 15%fr;
+    grid-template-rows: auto;
+}
+.date-text {
+    margin-top: 80px;
+    justify-self: center;
+    align-self: center;
+    padding: 3px;
+    padding-right: 50%;
+    border: 1px solid darkgrey;
+    font: 14px "Roboto";
+}
+
+.shows {
+    display: grid;
+    margin-left: 300px;
+    margin-top: 20px;
+    grid-template-columns: 200px 400px 200px;
+    grid-template-rows: 200px 400px 200px;
+    grid-template-areas: 
+      "image2 title ."
+      "image2 info read-more"
+      ". . . ."
+      "image2 title ."
+      "image2 info read-more"
+      ". . . ."
+      "image2 title ."
+      "image2 info read-more"
+      ". . . ."
+      "image2 title ."
+      "image2 info read-more";
+ }
+.image2{
+    width: 150px;
+    height: 150px;
+    justify-self: stretch;
+}
+.title{
+    justify-self: center;
+}
+.info{
+    justify-self: center;
+}
+.read-more{
+    justify-self: center;
+}
+
+//this is 
